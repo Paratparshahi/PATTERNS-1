@@ -1,0 +1,10 @@
+inte=int(input())
+i=1
+while(i<=inte):
+    j=1
+    stat_char=chr(ord('A')+i-1)
+    while(j<=i):
+        print(stat_char,end='')
+        j+=1
+    print()
+    i+=1
