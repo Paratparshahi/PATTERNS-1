@@ -1,0 +1,17 @@
+n = int(input())
+row = 1
+nst = 1
+value = 1
+while row <= n:
+    cst = 1
+    while cst <= nst:
+        if (cst == 1 or cst == nst):
+            print(value,end="")
+        else:
+            print(0,end="")
+        cst += 1
+    print()
+    if row != 1:
+        value += 1
+    row += 1
+    nst += 1
